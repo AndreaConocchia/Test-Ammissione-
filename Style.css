@@ -1,0 +1,57 @@
+body { background-image: url("background.jpg");
+  background-size: cover;
+  color: white;
+}
+
+.BOX { box-sizing: border-box;
+  margin: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 1500px;
+  height: 800px;
+  margin: auto;
+}
+
+.LOGO { display: block;
+  margin: auto;
+  max-width: 200px;
+  max-height: 200px;
+  margin-top: 100px;
+  padding-top: 100px;
+}
+
+h1 { text-align: center;
+  color: #40D61A;
+}
+
+nav{ background-color: #40D61A;
+  width: 1000px;
+  height: 50px;
+  margin: auto;
+}
+
+.Button { display: block;
+  text-align: center;
+  padding-top: 14px;
+}
+
+main{ padding-top: 50px;
+  padding-left: 250px;
+}
+
+.LivelloCarica1 {  width: 500px; height: 30px; background-color: orange;
+}
+
+.LivelloCarica2 {  width: 800px; height: 30px; background-color: #40D61A;
+}
+
+.LivelloCarica3 {  width: 200px; height: 30px; background-color: red;
+}
+
+.Monopattino2 , .Monopattino3 { padding-top: 30px;
+}
+
+.Nome { font-size: 25px; }
+
+.BOX , .LivelloCarica1 , .LivelloCarica2 , .LivelloCarica3 , nav {
+  border-radius: 5px;
+}
